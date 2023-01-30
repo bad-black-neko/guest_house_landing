@@ -139,23 +139,32 @@ export default function MainPage() {
                     <div className={styles.comeTogether_benefits}>
                         <div className={styles.comeTogetherBenefit_info}>
                             <div className={styles.wifi_logo}></div>
-                            <p>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.</p>
+                            <p>Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.</p>
                         </div>
                         <div className={styles.comeTogetherBenefit_info}>
                             <div className={styles.hanger_logo}></div>
-                            <p>Nulla rhoncus feugiat eros<br/> quis consectetur.</p>
+                            <p>Nulla rhoncus feugiat eros<br /> quis consectetur.</p>
                         </div>
                     </div>
                     <div className={styles.comeTogether_benefits}>
                         <div className={styles.comeTogetherBenefit_info}>
                             <div className={styles.bread_logo}></div>
-                            <p>Nullam scelerisque aliquam<br/> odio et faucibus.</p>
+                            <p>Nullam scelerisque aliquam<br /> odio et faucibus.</p>
                         </div>
                         <div className={styles.comeTogetherBenefit_info}>
                             <div className={styles.cutlery_logo}></div>
-                            <p>Morbi neque ex,<br/> condimentum.</p>
+                            <p>Morbi neque ex,<br /> condimentum.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className={styles.booking_block}>
+                <div className={styles.orange_line}></div>
+                <h2 className={styles.header}>We're already booked up for the<br/> spring — hurry up & secure your<br/> stay for the summer.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam<br/> scelerisque aliquam odio et faucibus.</p>
+                <div className={styles.bookingBlock_buttons}>
+                    <button className={styles.contact_btn}>Contact</button>
+                    <button className={styles.book_btn}>Book now</button>
                 </div>
             </div>
             <Footer />

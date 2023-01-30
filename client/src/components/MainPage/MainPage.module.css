@@ -322,3 +322,25 @@
 .comeTogether_benefits {
     display: flex;
 }
+
+.booking_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 478px;
+    background-color: #FAF8F0;
+    text-align: center;
+    color: #52503B;
+}
+
+.contact_btn {
+    width: 107px;
+    height: 42px;
+    margin: 20px;
+    border: solid 4px #52503B;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #FAF8F0;
+    color: #52503B;
+}
