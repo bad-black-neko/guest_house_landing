@@ -1,0 +1,38 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #52503B;
+    height: 80px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 24px;
+    font-size: 14px;
+}
+
+.menu li:nth-child(2) {
+    margin-left: 358px;
+}
+
+.menu li:nth-child(4) {
+    margin-right: 300px;
+}
+
+.logo {
+    margin-left: 120px;
+}
+.btn {
+    width: 117px;
+    height: 42px;
+    margin-right: 120px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    color: #52503B;
+    cursor: pointer;
+}

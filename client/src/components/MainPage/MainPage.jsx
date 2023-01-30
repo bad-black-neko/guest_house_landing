@@ -1,7 +1,12 @@
 import React from 'react'
+import Footer from '../Footer/Footer'
+import Header from '../Header/Header'
 
 export default function MainPage() {
   return (
-    <div>MainPage</div>
+    <>
+        <Header/>
+        <Footer/>
+    </>
   )
 }

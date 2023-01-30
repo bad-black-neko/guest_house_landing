@@ -1,9 +1,9 @@
+import MainPage from "./components/MainPage/MainPage";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Start
-      </header>
+      <MainPage/>
     </div>
   );
 }
