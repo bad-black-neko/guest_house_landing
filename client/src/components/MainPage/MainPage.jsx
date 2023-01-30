@@ -27,7 +27,25 @@ export default function MainPage() {
                 <div className={styles.bold_text}><p>The Guest House is the perfect weekend <br/>getaway cabin.</p></div>
             </div>
             <div className={styles.kitchen_img}></div>
-            
+            <div className={styles.sleepingArrangements_block}>
+                <div className={styles.orange_line}></div>
+                <div className={styles.sleepingArrangements_header}><p>Sleeping arrangements.</p></div>
+                <div className={styles.sleepingArrangements_text}><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam<br/> scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis<br/> consectetur.</p></div>
+                <div className={styles.arrangements}>
+                    <div className={styles.sleepingArrangements_about}>
+                        <div className={styles.bed_logo}></div>
+                        <div><p>Beds<br/>The cabin is equipped with 12 beds, 4 of which<br/> are in bunk. The rent includes linens<br/> for all beds.</p></div>
+                    </div>
+                    <div className={styles.sleepingArrangements_about}>
+                        <div className={styles.door_logo}></div>
+                        <div><p>Bedrooms<br/>Spread out over two floors, the cabin offers 4<br/> bedrooms. Ranging from<br/> 2 to 4 beds per room.</p></div>
+                    </div>
+                    <div className={styles.sleepingArrangements_about}>
+                        <div className={styles.shower_logo}></div>
+                        <div><p>Bathrooms<br/>The cabin has three bathrooms, all equipped<br/> with showers and one<br/> with a bath tub.</p></div>
+                    </div>
+                </div>
+            </div>
             <Footer />
         </>
     )

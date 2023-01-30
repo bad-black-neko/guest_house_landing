@@ -77,3 +77,54 @@
     height: 600px;
     background-image: url("../../../public/images/kitchen.png");
 }
+
+.sleepingArrangements_block {
+    height: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FAF8F0;
+    color: #52503B;
+}
+
+.sleepingArrangements_header {
+    font-size: 32px;
+}
+
+.sleepingArrangements_text {
+    font-size: 16px;
+}
+
+.arrangements {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.sleepingArrangements_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 20px;
+    margin-right: 25px;
+}
+
+.bed_logo {
+    width: 45.33px;
+    height: 64px;
+    background-image: url('../../../public/images/bed-Icon.png');
+}
+
+.door_logo {
+    width: 45.33px;
+    height: 64px;
+    background-image: url('../../../public/images/door-Icon.png');
+}
+
+.shower_logo {
+    width: 64px;
+    height: 58.67px;
+    background-image: url('../../../public/images/bath-Tub-Icon.png');
+}
