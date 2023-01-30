@@ -128,3 +128,92 @@
     height: 58.67px;
     background-image: url('../../../public/images/bath-Tub-Icon.png');
 }
+
+.benefits_block {
+    display: flex;
+    flex-direction: column;
+    height: 726px;
+    padding: 100px 136px;
+    color: #52503B;
+}
+
+.benefits_header {
+    font-size: 32px;
+}
+
+.benefits_text {
+    font-size: 16px;
+}
+
+.benefits {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.benefits_about {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefit_info {
+    display: flex;
+    align-items: center;
+    margin-top: 42px;
+}
+.stove_icon {
+    width: 36px;
+    height: 36px;
+    margin-right: 16px;
+    background-image: url('../../../public/images/stove-Icon.png');
+}
+
+.tree_icon {
+    width: 36px;
+    height: 28.5px;
+    margin-right: 16px;
+    background-image: url('../../../public/images/trees-Icon.png');
+}
+
+.cofee_icon {
+    width: 36px;
+    height: 36px;
+    margin-right: 16px;
+    background-image: url('../../../public/images/coffee-Maker-Icon.png');
+}
+
+.forest_icon {
+    width: 36px;
+    height: 27px;
+    margin-right: 16px;
+    background-image: url('../../../public/images/forest-Icon.png');
+}
+
+.conditioner_icon {
+    width: 36px;
+    height: 18px;
+    margin-right: 16px;
+    background-image: url('../../../public/images/air-Conditioner-Icon.png');
+}
+
+.storage_icon {
+    width: 36px;
+    height: 33px;
+    margin-right: 16px;
+    background-image: url('../../../public/images/briefcase-Icon.png');
+}
+
+.glass_icon {
+    width: 36px;
+    height: 36px;
+    margin-right: 16px;
+    background-image: url('../../../public/images/glass-Icon.png');
+    background-repeat: no-repeat;
+}
+
+.pizza_icon {
+    width: 36px;
+    height: 36px;
+    margin-right: 16px;
+    background-image: url('../../../public/images/pizza-Icon.png');
+}

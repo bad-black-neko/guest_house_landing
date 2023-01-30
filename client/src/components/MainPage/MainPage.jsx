@@ -46,6 +46,49 @@ export default function MainPage() {
                     </div>
                 </div>
             </div>
+            <div className={styles.benefits_block}>
+                <div className={styles.orange_line}></div>
+                <div className={styles.benefits_header}><p>The perfect escape.</p></div>
+                <div className={styles.benefits_text}><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam<br/> scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis<br/> consectetur.</p></div>
+                <div className={styles.benefits}>
+                <div className={styles.benefits_about}>
+                    <div className={styles.benefit_info}>
+                        <div className={styles.stove_icon}></div>
+                        <div><p>Modern Kitchen Appliances<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                    </div>
+                    <div className={styles.benefit_info}>
+                        <div className={styles.tree_icon}></div>
+                        <div><p>Outdoor Paths<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                    </div>
+                    <div className={styles.benefit_info}>
+                        <div className={styles.cofee_icon}></div>
+                        <div><p>Coffee Maker<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                    </div>
+                    <div className={styles.benefit_info}>
+                        <div className={styles.forest_icon}></div>
+                        <div><p>Natural Scenery<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                    </div>
+                </div>
+                <div className={styles.benefits_about}>
+                <div className={styles.benefit_info}>
+                        <div className={styles.conditioner_icon}></div>
+                        <div><p>Air Conditioner<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                    </div>
+                    <div className={styles.benefit_info}>
+                        <div className={styles.storage_icon}></div>
+                        <div><p>Storage Solutions<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                    </div>
+                    <div className={styles.benefit_info}>
+                        <div className={styles.glass_icon}></div>
+                        <div><p>Cutlery Selection<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                    </div>
+                    <div className={styles.benefit_info}>
+                        <div className={styles.pizza_icon}></div>
+                        <div><p>Take-away Options<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                    </div>
+                </div>
+                </div> 
+            </div>
             <Footer />
         </>
     )
