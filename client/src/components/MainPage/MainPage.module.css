@@ -56,3 +56,24 @@
     background-color: #52503B;
     color: #FFFFFF;
 }
+
+.text_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 568px;
+    text-align: center;
+}
+
+.bold_text {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    color: #52503B;
+}
+
+.kitchen_img {
+    height: 600px;
+    background-image: url("../../../public/images/kitchen.png");
+}

@@ -8,7 +8,7 @@ export default function MainPage() {
         <>
             <Header />
             <div className={styles.first_block}>
-                <div><img src="/images/big_logo.png" alt='logo' /></div>
+                <div><img src="/images/big_logo.png" alt='logo'/></div>
                 <div><p>Experience the perfect combination of modern <br />housing & natural scenery.</p></div>
                 <div><p>Located in Lofoten, Norway</p></div>
             </div>
@@ -22,6 +22,12 @@ export default function MainPage() {
                     </div>
                 </div>
             </div>
+            <div className={styles.text_block}>
+                <div className={styles.orange_line}></div>
+                <div className={styles.bold_text}><p>The Guest House is the perfect weekend <br/>getaway cabin.</p></div>
+            </div>
+            <div className={styles.kitchen_img}></div>
+            
             <Footer />
         </>
     )
