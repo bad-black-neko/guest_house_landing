@@ -16,4 +16,43 @@
 
 .first_block div:nth-child(2) {
     font-size: 48px;
+    line-height: 52.8px;
+}
+
+.about_block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 410px;
+    background-color: #FAF8F0;
+}
+
+.orange_line {
+    width: 42px;
+    height: 8px;
+    background-color: #E08631;
+}
+
+.about_text {
+    margin-top: 33px;
+    display: flex;
+    line-height: 20px;
+    color: #333333;
+}
+
+.about_text div {
+    width: 360px;
+}
+.about_text div:nth-child(1) {
+    padding-right: 40px;
+}
+
+.book_btn {
+    width: 107px;
+    height: 42px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #52503B;
+    color: #FFFFFF;
 }
