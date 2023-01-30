@@ -89,8 +89,9 @@
     color: #52503B;
 }
 
-.sleepingArrangements_header {
+.header {
     font-size: 32px;
+    font-weight: 400;
 }
 
 .sleepingArrangements_text {
@@ -275,4 +276,49 @@
 .bedroom_img {
     height: 600px;
     background-image: url("../../../public/images/bedroom.png");
+}
+
+.comeTogether_block {
+    height: 366px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.comeTogetherBenefit_info {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.wifi_logo {
+    width: 36px;
+    height: 34.5px;
+    margin-right: 19px;
+    background-image: url("../../../public/images/Wi-Fi-Icon.png");
+}
+
+.hanger_logo {
+    width: 30px;
+    height: 36px;
+    margin-right: 19px;
+    background-image: url("../../../public/images/Hanger-Icon.png");
+}
+
+.bread_logo {
+    width: 36px;
+    height: 15px;
+    margin-right: 19px;
+    background-image: url("../../../public/images/Bread-Icon.png");
+}
+
+.cutlery_logo {
+    width: 30px;
+    height: 36px;
+    margin-right: 19px;
+    background-image: url("../../../public/images/Cutlery-Icon.png");
+}
+
+.comeTogether_benefits {
+    display: flex;
 }

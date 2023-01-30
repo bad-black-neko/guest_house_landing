@@ -29,7 +29,7 @@ export default function MainPage() {
             <div className={styles.kitchen_img}></div>
             <div className={styles.sleepingArrangements_block}>
                 <div className={styles.orange_line}></div>
-                <div className={styles.sleepingArrangements_header}><p>Sleeping arrangements.</p></div>
+                <h2 className={styles.header}>Sleeping arrangements.</h2>
                 <div className={styles.sleepingArrangements_text}><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam<br /> scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis<br /> consectetur.</p></div>
                 <div className={styles.arrangements}>
                     <div className={styles.sleepingArrangements_about}>
@@ -48,7 +48,7 @@ export default function MainPage() {
             </div>
             <div className={styles.benefits_block}>
                 <div className={styles.orange_line}></div>
-                <div className={styles.benefits_header}><p>The perfect escape.</p></div>
+                <h2 className={styles.header}>The perfect escape.</h2>
                 <div className={styles.benefits_text}><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam<br /> scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis<br /> consectetur.</p></div>
                 <div className={styles.benefits}>
                     <div className={styles.benefits_about}>
@@ -91,8 +91,8 @@ export default function MainPage() {
             </div>
             <div className={styles.rewievs}>
                 <div className={styles.orange_line}></div>
-                <div className={styles.rewievs_header}><p>Past guests.</p></div>
-                <div><p>Don't take our word for it! Have a look at what our previous guests say<br/> about their stay at the Guest House.</p></div>
+                <h2 className={styles.header}>Past guests.</h2>
+                <div><p>Don't take our word for it! Have a look at what our previous guests say<br /> about their stay at the Guest House.</p></div>
                 <div>
                     <div className={styles.rewiews_cards}>
                         <div className={styles.first_card}>
@@ -108,7 +108,7 @@ export default function MainPage() {
                             <div className={styles.name}>
                                 <div className={styles.smallorange_line}></div>
                                 <p>Nate Davidsson</p>
-                            </div>                        
+                            </div>
                         </div>
                         <div className={styles.second_card}>
                             <div className={styles.rewiev_rate}>
@@ -123,12 +123,41 @@ export default function MainPage() {
                             <div className={styles.name}>
                                 <div className={styles.smallorange_line}></div>
                                 <p>Laura Paulie</p>
-                            </div>                        
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div className={styles.bedroom_img}></div>
+            <div className={styles.comeTogether_block}>
+                <div>
+                    <div className={styles.orange_line}></div>
+                    <h2 className={styles.header}>Come together.</h2>
+                    <p className={styles.comeTogether_text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam<br /> scelerisque aliquam odio et faucibus.</p>
+                </div>
+                <div>
+                    <div className={styles.comeTogether_benefits}>
+                        <div className={styles.comeTogetherBenefit_info}>
+                            <div className={styles.wifi_logo}></div>
+                            <p>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.</p>
+                        </div>
+                        <div className={styles.comeTogetherBenefit_info}>
+                            <div className={styles.hanger_logo}></div>
+                            <p>Nulla rhoncus feugiat eros<br/> quis consectetur.</p>
+                        </div>
+                    </div>
+                    <div className={styles.comeTogether_benefits}>
+                        <div className={styles.comeTogetherBenefit_info}>
+                            <div className={styles.bread_logo}></div>
+                            <p>Nullam scelerisque aliquam<br/> odio et faucibus.</p>
+                        </div>
+                        <div className={styles.comeTogetherBenefit_info}>
+                            <div className={styles.cutlery_logo}></div>
+                            <p>Morbi neque ex,<br/> condimentum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <Footer />
         </>
     )
